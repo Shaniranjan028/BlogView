@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VIEW</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Lato";
+      }
+      .navLink1:hover {
+        padding: 3px !important;
+
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        font-family: sans-serif !important;
+      }
+
+      .linkArticle:hover {
+        font-family: serif;
+
+        font-weight: bold;
+        color: black;
+      }
+      .linkWriter:hover {
+        font-family: serif;
+
+        font-weight: bold;
+        color: red;
+      }
+      .footerDiv {
+        height: 80px;
+        background: rgb(248, 184, 195);
+      }
+
+      .footerHead {
+        color: white;
+        margin-left: 70px;
+        margin-top: 50px !important;
+      }
+
+      .footersection {
+        width: 100%;
+        height: auto;
+        padding: 70px 0 20px 0;
+        background: rgb(39, 38, 38);
+        position: relative;
+      }
+
+      .footersection p {
+        color: #fff;
+      }
+
+      .footersection li a {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        font-weight: 400;
+        color: #fff;
+        text-transform: capitalize;
+      }
+
+      .footersection h3 {
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 1.2rem !important;
+        font-weight: bold;
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="bg-light" style="color: white; height: auto !important">
+      <div
+        class="container mx-auto flex flex-wrap flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-2 md:mb-0"
+        >
+          <span
+            class="ml-0 text-xl mt-4"
+            style="font-size: 28px !important; color: black"
+            >VIEW</span
+          >
+        </a>
+        <nav
+          class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center"
+          style="font-family: sans-serif !important"
+        >
+          <a class="mr-2 navLink1" href="#" style="color: black">HISTORY</a>
+          <a class="mr-2 navLink1" href="#" style="color: black">POLITY</a>
+          <a class="mr-2 navLink1" href="#" style="color: black"
+            >INTERNATIONAL RELATIONS</a
+          >
+          <a class="mr-2 navLink1" href="#" style="color: black">ENVIRONMENT</a>
+          <a class="mr-2 navLink1" href="#" style="color: black">TECHNOLOGY</a>
+          <a class="mr-2 navLink1" href="#" style="color: black"
+            >SOCIAL ISSUES</a
+          >
+        </nav>
+        <a href="#" class="user_icon mt-2">
+          <i id="search" class="fa-2x fa fa-user" style="color: black"></i
+        ></a>
+      </div>
+      <div class="text-center" style="padding-bottom: 10px !important">
+        <h1 style="font-size: 24px; font-weight: bold; color: black">
+          Welcome To My Blog
+        </h1>
+      </div>
+      <div
+        class="text-center"
+        style="padding-bottom: 10px !important; padding-top: 5px; color: black"
+      >
+        <input
+          class="search_input"
+          type="text"
+          name=""
+          placeholder="Search..."
+          style="
+            border-radius: 30px;
+            color: black !important;
+            width: 300px;
+            border: 1px black solid;
+          "
+        />
+        <a href="#" class="search_icon">
+          <i id="search" class="fa-1x fa fa-search"></i
+        ></a>
+      </div>
+    </header>
+    <section
+      style="margin-left: 5%; margin-right: 5%; border-bottom: black solid 1px"
+    >
+      <div class="row mt-2">
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card" style="width: 100%">
+            <img
+              class="card-img-top"
+              src="images.jpg"
+              alt="Card image"
+              style="width: 100%; height: 230px"
+            />
+
+            <div class="card-body">
+              <h4
+                class="card-title"
+                style="
+                  font-size: 20px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                Raja Rammohan Roy
+              </h4>
+              <a href="rrm.html" target="_blank" class="linkArticle"
+                ><p class="card-text" style="font-size: 14px">
+                  Raja Ram Mohan Roy was the father of Modern India’s...
+                </p></a
+              >
+              <p style="font-size: 12px">10 min read</p>
+              <p style="font-size: 12px">
+                Written by <a href="#" class="linkWriter">M kant</a>
+              </p>
+            </div>
+          </div>
+          <br />
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="row mb-3 pt-1">
+            <div class="col-lg-4 col-md-4 col-4">
+              <img src="IUI.jpg" alt="" />
+            </div>
+            <div class="col-lg-8 col-md-8 col-8">
+              <h4
+                style="
+                  font-size: 16px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                UAE-Israel Peace Treaty & India
+              </h4>
+              <a href="#" target="_blank" class="linkArticle"
+                ><p style="font-size: 14px" class="">
+                  In a move that significantly impacts geopolitics.....
+                </p></a
+              >
+              <p style="font-size: 12px" class="">10 min read</p>
+              <p style="font-size: 12px" class="">
+                Written by <a href="#" class="linkWriter">A N Singh</a>
+              </p>
+            </div>
+          </div>
+          <div class="row mb-3 pt-1">
+            <div class="col-lg-4 col-md-4 col-4">
+              <img src="covid.jpg" alt="" />
+            </div>
+            <div class="col-lg-8 col-md-8 col-8">
+              <h4
+                style="
+                  font-size: 16px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                Covid-19 Detection Using Mass Spectrometer
+              </h4>
+              <a href="#" target="_blank" class="linkArticle"
+                ><p style="font-size: 14px" class="py-1">
+                  Researchers from the Institute of Genomics and ......
+                </p></a
+              >
+              <p style="font-size: 12px" class="">8 min read</p>
+              <p style="font-size: 12px" class="">
+                Written by <a href="#" class="linkWriter">Dr Mitra</a>
+              </p>
+            </div>
+          </div>
+          <div class="row mb-3 pt-1">
+            <div class="col-lg-4 col-md-4 col-4">
+              <img src="Mandal-Commission.jpg" alt="" />
+            </div>
+            <div class="col-lg-8 col-md-8 col-8">
+              <h4
+                style="
+                  font-size: 16px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                30 Years Of Mandal Commission
+              </h4>
+              <a href="#" target="_blank" class="linkArticle"
+                ><p style="font-size: 14px" class="py-1">
+                  Social Justice Prev Next 30 Years of Mandal Comm......
+                </p></a
+              >
+              <p style="font-size: 12px" class="">8 min read</p>
+              <p style="font-size: 12px" class="">
+                Written by <a href="#" class="linkWriter">Sanjeev Prasad</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <div class="card" style="width: 100%">
+            <img
+              class="card-img-top"
+              src="butterflies.jpg"
+              alt="Card image"
+              style="width: 100%; height: 230px"
+            />
+
+            <div class="card-body">
+              <h4
+                class="card-title"
+                style="
+                  font-size: 20px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                Early Migration of Butterflies
+              </h4>
+              <a href="#" target="_blank" class="linkArticle"
+                ><p class="card-text" style="font-size: 14px">
+                  The annual migration of butterflies from the hill ranges of
+                  the...
+                </p></a
+              >
+              <p style="font-size: 12px" class="">10 min read</p>
+              <p style="font-size: 12px" class="">
+                Written by <a href="#" class="linkWriter">Urmila Rao</a>
+              </p>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
+    </section>
+    <section
+      style="margin-left: 5%; margin-right: 5%; border-bottom: black solid 1px"
+      class="mt-3 pb-4"
+    >
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-12">
+          <div
+            style="border: 1px grey; background-color: orangered"
+            class="text-center text-white"
+          >
+            <div class="pt-4 pb-4">
+              <h3
+                style="
+                  font-size: 22px;
+                  font-weight: bold;
+                  font-family: sans-serif;
+                "
+              >
+                What's Going On
+              </h3>
+              <p class="py-2">
+                Starting a new blog in the fight against anti-nationalism
+              </p>
+              <button class="bg-dark p-1" style="border-radius: 5px">
+                Go to Blog
+              </button>
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col-lg-8 col-md-8 col-8">
+              <h4
+                style="
+                  font-size: 16px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                We are a nation furious at injustice.
+              </h4>
+              <a href="#" target="_blank" class="linkArticle"
+                ><p style="font-size: 14px" class="py-1">
+                  These last few days have laid bare that we are a nation
+                  furious at injustice. Every person of conscience can
+                  understand the rawness.........
+                </p></a
+              >
+              <p style="font-size: 12px" class="pt-1">8 min read</p>
+              <p style="font-size: 12px" class="pt-1">
+                Written by <a href="#" class="linkWriter">J Biden</a>
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-4">
+              <img src="biden.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col-lg-8 col-md-8 col-8">
+              <h4
+                style="
+                  font-size: 16px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                How Long Does Free Code Camp Take?
+              </h4>
+              <a href="#" target="_blank" class="linkArticle"
+                ><p style="font-size: 14px" class="py-1">
+                  I spent the end of winter in a solar-powered, stove heated
+                  cabin in Northern Utah. There was no shower, but we mounted a
+                  satellite........
+                </p></a
+              >
+              <p style="font-size: 12px" class="pt-1">9 min read</p>
+              <p style="font-size: 12px" class="pt-1">
+                Written by <a href="#" class="linkWriter">Collin Ferry</a>
+              </p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-4">
+              <img src="freecodecamp.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="row pt-3">
+            <div class="col-lg-8 col-md-8 col-8">
+              <h4
+                style="
+                  font-size: 16px;
+                  font-weight: bold;
+                  font-family: sans-serif !important;
+                "
+              >
+                Improving AngularJS performance with 1 line of code
+              </h4>
+              <a href="#" target="_blank" class="linkArticle"
+                ><p style="font-size: 14px" class="py-1">
+                  I’m on Genius.com and I right click over some text and click
+                  “Inspect Element” for I’m not sure what reason, as any
+                  good.....
+                </p></a
+              >
+              <p style="font-size: 12px" class="pt-1">10 min read</p>
+              <p style="font-size: 12px" class="pt-1">
+                Written by <a href="#" class="linkWriter">A K Mishra</a>
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-4">
+              <img src="angular.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <h1
+            class="text-center"
+            style="font-family: sans-serif; font-weight: bold; font-size: 22px"
+          >
+            Populer Articles
+          </h1>
+          <div class="pt-3 pr-4">
+            <h3
+              style="
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+              "
+            >
+              Institutional respect and Institutional contempt - two contrasting
+              approaches
+            </h3>
+            <a href="#" class="linkArticle"
+              ><p style="font-size: 14px" class="pt-2">
+                In the summer of 2014, the people voted decisively for......
+              </p></a
+            >
+            <p style="font-size: 12px" class="">10 min read</p>
+            <p style="font-size: 12px" class="">
+              Written by <a href="#" class="linkWriter">Urmila Rao</a>
+            </p>
+          </div>
+          <div class="pt-3 pr-4">
+            <h3
+              style="
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+              "
+            >
+              A Supercomputer Analyzed Covid-19 — and an Interesting New Theory
+              Has Emerged
+            </h3>
+            <a href="#" class="linkArticle"
+              ><p style="font-size: 14px" class="pt-2">
+                Earlier this summer, the Summit supercomputer at Oak Ridge......
+              </p></a
+            >
+            <p style="font-size: 12px" class="">10 min read</p>
+            <p style="font-size: 12px" class="">
+              Written by <a href="#" class="linkWriter">Urmila Rao</a>
+            </p>
+          </div>
+          <div class="pt-3 pr-4">
+            <h3
+              style="
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+              "
+            >
+              Nazi Hippies: When the New Age and Far Right Overlap
+            </h3>
+            <a href="#" class="linkArticle"
+              ><p style="font-size: 14px" class="pt-2">
+                Last week’s rallies in London, Berlin, and Los Angeles
+                agains......
+              </p></a
+            >
+            <p style="font-size: 12px" class="">10 min read</p>
+            <p style="font-size: 12px" class="">
+              Written by <a href="#" class="linkWriter">Urmila Rao</a>
+            </p>
+          </div>
+          <div class="pt-3 pr-4">
+            <h3
+              style="
+                font-family: sans-serif;
+                font-weight: bold;
+                font-size: 16px;
+              "
+            >
+              Your ‘Surge Capacity’ Is Depleted — It’s Why You Feel Awful
+            </h3>
+            <a href="#" class="linkArticle"
+              ><p style="font-size: 14px" class="pt-2">
+                It was the end of the world as we knew it and i felt fine......
+              </p></a
+            >
+            <p style="font-size: 12px" class="">10 min read</p>
+            <p style="font-size: 12px" class="">
+              Written by <a href="#" class="linkWriter">Urmila Rao</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <footer class="footersection" id="footerdiv">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12 footer-div">
+              <div>
+                <h3>ABOUT VIEW</h3>
+                <p class="p-2">
+                  We're an online community that provides platform to emerging
+                  writers.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 footer-div text-center">
+              <div>
+                <h3>NAVIGATION LINKS</h3>
+                <li style="list-style-type: none"><a href="#">Home</a></li>
+
+                <li style="list-style-type: none"><a href="#">Writers</a></li>
+                <li style="list-style-type: none">
+                  <a href="#">About Us</a>
+                </li>
+
+                <li style="list-style-type: none">
+                  <a href="#">Terms & Privacy</a>
+                </li>
+                <li style="list-style-type: none">
+                  <a href="#">Contact Us</a>
+                </li>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-12 footer-div">
+              <div>
+                <h3>NEWS LETTER</h3>
+                <p class="p-2">
+                  Subscribe here to get updates of new articles.
+                </p>
+                <div class="newsletter-main">
+                  <div class="row">
+                    <div class="col-lg-12 col-md-12 col-12">
+                      <div class="input-group mb-3">
+                        <input
+                          type="text"
+                          class="form-control news-letter"
+                          placeholder="Your Email"
+                        />
+                        <a href="#">
+                          <div class="input-group-append">
+                            <span class="input-group-text">Subscribe</span>
+                          </div></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-5 text-center">
+            <p>
+              Copyright @2020.All rights Reserved | This template is made by me.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
